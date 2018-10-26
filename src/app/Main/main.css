@@ -1,6 +1,16 @@
-table {
-    width: 85%;
-  }
-  .table-format{
+
+.table-format{
   border: black solid 3px;
+  width: 50%;
+  cursor: pointer;
+  background-color:  aliceblue;
 }
+
+
+.table-format2{
+  border: green ridge 15px;
+  cursor: pointer;
+  width: 50%;
+  background-color: blanchedalmond;
+}
+

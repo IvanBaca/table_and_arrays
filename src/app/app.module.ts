@@ -6,7 +6,7 @@ import { MatFormFieldModule,MatSlideToggleModule,MatCheckboxModule,MatTabsModule
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {MatTableModule} from '@angular/material/table';
 import { Main } from './Main/main';
-
+import {MatInputModule} from '@angular/material';
 @NgModule({
   declarations: [
 
@@ -24,6 +24,7 @@ import { Main } from './Main/main';
     ReactiveFormsModule,
     MatCheckboxModule,
     MatTabsModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [
